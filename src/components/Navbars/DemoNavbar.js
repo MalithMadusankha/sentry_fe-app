@@ -50,7 +50,7 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5 pt-0" to="/" tag={Link}>
+              <NavbarBrand className="mr-lg-5 pt-0" to="/landing-page" tag={Link}>
                 <img
                   alt="..."
                   src={Logo}
@@ -89,9 +89,9 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com/creativetim"
+                      href="landing"
                       id="tooltip333589074"
-                      target="_blank"
+                      target=""
                     >
                       
                       <span className="p-2">Home</span>
@@ -100,9 +100,9 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com/creativetim"
+                      href="#"
                       id="tooltip333589074"
-                      target="_blank"
+                      target=""
                     >
                       
                       <span className="p-2">CONTACT US</span>
@@ -111,9 +111,9 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com/creativetim"
+                      href="#"
                       id="tooltip333589074"
-                      target="_blank"
+                      target=""
                     >
                       
                       <span className="p-2">ABOUT US</span>
@@ -122,9 +122,9 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com/creativetim"
+                      href="/patient-profile"
                       id="tooltip333589074"
-                      target="_blank"
+                      target=""
                     >
                       
                       <span className="p-2">PTIENTS PROFILE</span>
@@ -133,9 +133,9 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com/creativetim"
+                      href="profile"
                       id="tooltip333589074"
-                      target="_blank"
+                      target=""
                     >
                       
                       <span className="p-2">DOCTOR PROFILE</span>
@@ -144,9 +144,9 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com/creativetim"
+                      href="profile"
                       id="tooltip333589074"
-                      target="_blank"
+                      target=""
                     >
                       
                       <span className="p-2">SIGN OUT</span>
