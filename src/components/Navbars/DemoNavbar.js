@@ -15,7 +15,7 @@ import {
   Col,
 } from "reactstrap";
 
-import Logo from '../../assets/img/logo.png'
+import Logo from "../../assets/img/logo.png";
 
 class DemoNavbar extends React.Component {
   componentDidMount() {
@@ -50,12 +50,12 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5 pt-0" to="/landing-page" tag={Link}>
-                <img
-                  alt="..."
-                  src={Logo}
-                  style={{height: 100}}
-                />
+              <NavbarBrand
+                className="mr-lg-5 pt-0"
+                to="/landing-page"
+                tag={Link}
+              >
+                <img alt="..." src={Logo} style={{ height: 100 }} />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
@@ -93,7 +93,6 @@ class DemoNavbar extends React.Component {
                       id="tooltip333589074"
                       target=""
                     >
-                      
                       <span className="p-2">Home</span>
                     </NavLink>
                   </NavItem>
@@ -104,7 +103,6 @@ class DemoNavbar extends React.Component {
                       id="tooltip333589074"
                       target=""
                     >
-                      
                       <span className="p-2">CONTACT US</span>
                     </NavLink>
                   </NavItem>
@@ -115,7 +113,6 @@ class DemoNavbar extends React.Component {
                       id="tooltip333589074"
                       target=""
                     >
-                      
                       <span className="p-2">ABOUT US</span>
                     </NavLink>
                   </NavItem>
@@ -126,7 +123,6 @@ class DemoNavbar extends React.Component {
                       id="tooltip333589074"
                       target=""
                     >
-                      
                       <span className="p-2">PTIENTS PROFILE</span>
                     </NavLink>
                   </NavItem>
@@ -137,18 +133,16 @@ class DemoNavbar extends React.Component {
                       id="tooltip333589074"
                       target=""
                     >
-                      
                       <span className="p-2">DOCTOR PROFILE</span>
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="profile"
+                      href="/login"
                       id="tooltip333589074"
                       target=""
                     >
-                      
                       <span className="p-2">SIGN OUT</span>
                     </NavLink>
                   </NavItem>
