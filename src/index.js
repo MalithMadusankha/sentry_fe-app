@@ -1,4 +1,3 @@
-
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
@@ -19,27 +18,14 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Switch>
-      
-      <Route
-        path="/landing"
-        exact
-        render={(props) => <Landing {...props} />}
-      />
-      <Route
-        path="/login"
-        exact
-        render={(props) => <Login {...props} />}
-      />
+      <Route path="/landing" exact render={(props) => <Landing {...props} />} />
+      <Route path="/login" exact render={(props) => <Login {...props} />} />
       <Route
         path="/forget-password"
         exact
         render={(props) => <ForgetPassword {...props} />}
       />
-      <Route
-        path="/profile"
-        exact
-        render={(props) => <Profile {...props} />}
-      />
+      <Route path="/profile" exact render={(props) => <Profile {...props} />} />
       <Route
         path="/patient-profile"
         exact
@@ -49,6 +35,11 @@ root.render(
         path="/register"
         exact
         render={(props) => <Register {...props} />}
+      />
+      <Route
+        path="/forget-password"
+        exact
+        render={(props) => <ForgetPassword {...props} />}
       />
       <Route path="/" exact render={(props) => <Landing {...props} />} />
       <Redirect to="/" />

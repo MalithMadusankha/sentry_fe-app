@@ -224,18 +224,24 @@ class Register extends React.Component {
                         </FormGroup>
                         <div className="d-flex flex-row ">
                           <div>
-                              <Button
-                            className="mt-4"
-                            color="primary"
-                            type="button"
-                          >
-                            Create account
-                          </Button>
+                            <Button
+                              className="mt-4"
+                              color="primary"
+                              type="button"
+                            >
+                              Create account
+                            </Button>
                           </div>
                           <div className="pt-5 d-flex flex-row">
-                            <span className="px-2">or </span> <Nav><NavItem><span className="text-primary">Sign In</span></NavItem></Nav>
+                            <span className="px-2">or </span>{" "}
+                            <Nav>
+                              <NavItem>
+                                <span className="text-primary">
+                                  <a href="/login">Sign In</a>{" "}
+                                </span>
+                              </NavItem>
+                            </Nav>
                           </div>
-                         
                         </div>
                       </Form>
                     </CardBody>

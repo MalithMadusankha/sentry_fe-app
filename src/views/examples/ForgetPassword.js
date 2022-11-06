@@ -90,7 +90,9 @@ class ForgetPassword extends React.Component {
                   <Card className="bg-secondary shadow border-0">
                     <CardBody className="px-lg-5 py-lg-5">
                       <div className="text-center text-muted mb-4">
-                        <h4 className="text-primary">Forget Your Password ? </h4>
+                        <h4 className="text-primary">
+                          Forget Your Password ?{" "}
+                        </h4>
                         <h6>Enter your correct email address</h6>
                       </div>
                       <Form role="form">
@@ -146,20 +148,12 @@ class ForgetPassword extends React.Component {
                   </Card>
                   <Row className="mt-3">
                     <Col xs="6">
-                      <a
-                        className="text-light"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                      >
+                      <a className="text-light" href="/register">
                         <small>Sing Up</small>
                       </a>
                     </Col>
                     <Col className="text-right" xs="6">
-                      <a
-                        className="text-light"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                      >
+                      <a className="text-light" href="/login">
                         <small>Sign In</small>
                       </a>
                     </Col>
